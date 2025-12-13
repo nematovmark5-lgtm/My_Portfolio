@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-bottom: 5000px;
         }
         header{
             border-bottom: black 3px solid;
@@ -40,60 +41,238 @@
             color: rgb(44, 44, 44);
             font-weight: 510;
         }
+        main{
+            height: 100vh;
+            width: auto;
+        }
+        .hr-horizontal-gradient {
+            position: relative;
+            bottom: 20px;
+            height: 2px;
+            border: none;
+            background: linear-gradient(45deg, #000000, #fffdfd);
+        }
+        .detailed_description{
+            width: 71%;
+        }
+        .contactsAndSkills{
+            border-left: solid black 3px;
+            padding-left: 10px;
+            width: 29%;
+        }
+        .bodyDescription{
+            display: flex;
+            margin-top: 5px;
+        }
+        .work_experience_list{
+            display: flex;
+        }
+        
+
+        .lineDecaration{
+            border: rgb(211, 211, 211) solid 1px;
+            height: 1310px;
+            width: 0;
+            margin-right: 10px;
+            position: relative;
+            top: 5px;
+        }
+        .lineDecaration1{
+            border: rgb(211, 211, 211) solid 1px;
+            height: 50px;
+            width: 0;
+            margin-right: 10px;
+            position: relative;
+            top: 5px;
+        }
+        .square{
+            position: relative;
+            top: -1px;
+            right: 4px;
+            height: 8px;
+            width: 8px;
+            background-color: #000000;
+        }
+        .square1{
+            position: relative;
+            top: 415px;
+            right: 4px;
+            height: 8px;
+            width: 8px;
+            background-color: #000000;
+        }
+        .square2{
+            position: relative;
+            top: 685px;
+            right: 4px;
+            height: 8px;
+            width: 8px;
+            background-color: #000000;
+        }
+        h3{
+            margin-top: 0;
+            margin-bottom: 7px;
+        }
+        .gray_span{
+            font-style: italic;
+            font-size: 18px;
+        }
+        li{
+            padding: 2px 2px;
+        }
+        
 
 
     </style>
 </head>
 <body>
-    <header>
-        <div class="header_discription">
-            <h1>Неъматов Маъруфджон Юсуфжонович</h1>
-            <h3>СПЕЦИАЛИСТ ПО РАЗРАБОТКЕ САЙТОВ</h3>
-            <i class="fa-solid fa-location-dot"></i> <span>Тверь, р-н Юность, </span>
-            <i class="fa-solid fa-info"></i>  <span>Возрост: 21 лет</span>
-        </div>
-
-        <div class="photo">
-            <div>
-                <img src="https://img.freepik.com/premium-vector/caucasian-male-teen-dreaming-diffrent-gender_951778-22681.jpg?semt=ais_hybrid" alt="">
-            </div>
-        </div>
-    </header>
-
     <main>
-        <div class="detailed_description">
-            <div class="work_experience">
+        <header>
+            <div class="header_discription">
+                <h1>Неъматов Маъруфджон Юсуфжонович</h1>
+                <h3>СПЕЦИАЛИСТ ПО РАЗРАБОТКЕ САЙТОВ</h3>
+                <i class="fa-solid fa-location-dot"></i> <span>Тверь, р-н Юность, </span>
+                <i class="fa-solid fa-info"></i>  <span>Возрост: 21 лет</span>
+            </div>
+            <div class="photo">
+                <div>
+                    <img src="https://img.freepik.com/premium-vector/caucasian-male-teen-dreaming-diffrent-gender_951778-22681.jpg?semt=ais_hybrid" alt="">
+                </div>
+            </div>
+        </header>
+        <section class="bodyDescription">
+            <div class="detailed_description">
+                <div class="work_experience">
+                    <h2>Опыт к программированию</h2>
+                    <hr class="hr-horizontal-gradient">
+                    <div class="work_experience_list">
+
+                        <div class="lineDecaration">
+                            <div class="square"></div>
+                            <div class="square1"></div>
+                            <div class="square2"></div>
+                        </div>
+                        <div class="info_experience">
+                            <h3>Колледж "ЧУПО ВШП"</h3>
+                            <span class="gray_span">В рамке учебных заданий от преподавателя Сергея Игоревича разработывал следующие программы:</span>
+                            <ul>
+                                <li>GPS Alarm - Android приложение</li>
+                                <li>Система продажа билетов, сайт</li>
+                                <li>Бравл старс справочник, сайт</li>
+                                <li>Электронная очередь в столовой, сайт</li>
+                                <li>Книжная полка, сайт</li>
+                                <li>Советы дня для программистов, сайт</li>
+                                <li>С остальними темами можете ознакомиться в <a href="https://github.com/nematovmark5-lgtm?tab=repositories">Гитхабе</a>!</li>
+                            </ul>
+                            <h4>Основные достижения(за 3 года): </h4>
+                            <ul>
+                                <li>Приобрел навык создания клиент‑серверных приложений, включая настройку взаимодействия с базой данных.</li>
+                                <li>Научился создовать архитектуру проекта.</li>
+                                <li>Научился работать в комадной работе.</li>
+                                <li>Развил хорошо структуру мышления.</li>
+                            </ul>
+                            <h3>Академия "TOP"</h3>
+                            <span class="gray_span">В рамках обучения освоил полный цикл веб‑разработки:</span>
+                            <ul>
+                                <li>вёрстка статических страниц (HTML, CSS);</li>
+                                <li>интерактивность и динамика (JavaScript, анимационные эффекты);</li>
+                                <li>серверная логика (PHP).</li>
+                            </ul>
+                            <h4>Основные достижения(за 1 год): </h4>
+                            <ul>
+                                <li>Научился вёрстку и адаптивностью (HTML/CSS);</li>
+                                <li>Научился анимационным эффектам и интерактивностью (JS);</li>
+                                <li>Научился настраивать простейшие серверные сценарии (PHP).</li>
+                            </ul>
+                            <h3>Самообучения</h3>
+                            <span class="gray_span">В рамках самообучения изучал некоторые техналоги:</span>
+                            <ul>
+                                <li>Учил паскаль и делфи и также работал в конструкторе делфи</li>
+                                <li>Вебразработке</li>
+                                <li>Поднимал сервера на разных фремворках таких как FastAPI, Flask итд</li>
+                                <li>Работал с API, отправлял запросы, получал данные!</li>
+                                <li>Учил язык программирование питон</li>
+                                <li>Учился работать с субдешкой как MYSQL, писал запросы, создовал ERD-диаграммы итд</li>
+                                <li>Изучал разные графические фремворки такие как PySide6, tkinter итд</li>
+                                <li>Учил язык программирование PHP</li>
+                                <li>Немного работал с фигмой, создовал макеты итд</li>
+                                <li>Изучал гит и гитхаб</li>
+                                <li>На основе знаний и о всех языках, каторый я знаю, практиковался очень много!</li>
+
+                            </ul>
+                            <h4>Основные достижения(за 5-6 лет): </h4>
+                            <ul>
+                                <li>Научился создовать программы на языке паскаль (делфи)</li>
+                                <li>Научился писать графические интерфейсы в питоне использую PySide6, tkinter итд</li>
+                                <li>Научился некоторым алгоримам примеру такой как пузырковая сортировка массива</li>
+                                <li>Научился создовать сайты</li>
+                                <li>Научился работать с серверами</li>
+                                <li>Научился работать с MYSQL</li>
+                                <li>Научился работать с Гитом и Гитхабом</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h2>Оброзование</h2>
+                    <hr class="hr-horizontal-gradient">
+                    <div class="work_experience_list">
+                        <div class="lineDecaration1">
+                            <div class="square"></div>
+                        </div>
+                        <div class="info_education">
+                            <h3>Тверской колледж ВШП, Среднее профессиональное образование</h3>
+                            <span>ИСИП, Информационные системы и программирование</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <h2>Курсы</h2>
+                    <hr class="hr-horizontal-gradient">
+                    <div class="work_experience_list">
+                        <div class="lineDecaration1">
+                            <div class="square"></div>
+                        </div>
+                        <div class="info_education">
+                            <h3>Академия "TOP"</h3>
+                            <span>Вебразработка с нуля</span>
+                        </div>
+                    </div>
+                    <div class="work_experience_list">
+                        <div class="lineDecaration1">
+                            <div class="square"></div>
+                        </div>
+                        <div class="info_education">
+                            <h3>Обучения в Mimo</h3>
+                            <span>Изучения питон, web, php итд</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about_me">
+                    <h2>О себе</h2>
+                    <span>Хорошые знание о вебразработке, есть сертификаты по разработке программ,<br> обладаю навыками создать клиент серверное приложения взаимодействием с базой данных,<br> люблю создовать полезные сайты, программы и игры, это мой любимый хобби!</span>
+                </div>
 
             </div>
 
-            <div class="education">
+            <div class="contactsAndSkills">
+                <nav class="contacts">
+                    <h2>Контакты</h2>
+                    <hr class="hr-horizontal-gradient">
+                </nav>
+
+                <div class="languages">
+
+                </div>
+
+                <div class="skills">
+
+                </div>
 
             </div>
-
-            <div class="courses">
-
-            </div>
-
-            <div class="about_me">
-
-            </div>
-
-        </div>
-
-        <div class="contactsAndSkills">
-            <nav class="contacts">
-
-            </nav>
-
-            <div class="languages">
-
-            </div>
-
-            <div class="skills">
-
-            </div>
-
-        </div>
+        </section>
     </main>
 </body>
 </html>
